@@ -22,7 +22,7 @@ function Projects() {
     show: { opacity: 1 },
   };
   return (
-    <section id="projects" className="pt-20 px-16 bg-black md:h-screen">
+    <section id="projects" className="py-20 px-16 bg-black md:h-screen">
       <div className="font-francois text-center text-5xl text-white mb-16">
         My Projects
       </div>

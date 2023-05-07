@@ -8,13 +8,13 @@ function Header() {
       id="home"
       className="relative h-screen pt-20 px-16 overflow-hidden"
     >
-      <div className="flex h-full">
+      <div className="flex flex-col-reverse h-full md:flex-row">
         {/*Text*/}
         <motion.div
           initial="hidden"
           whileInView="show"
           viewport={{
-            once:true
+            once: true,
           }}
           transition={{
             duration: 0.7,
@@ -32,7 +32,7 @@ function Header() {
           }}
           className="flex flex-col basis-1/2 justify-center gap-5"
         >
-          <h1 className="text-purple-900 font-francois text-[50px] md:text-[70px] lg:text-[100px]">
+          <h1 className="text-black font-francois text-[50px] md:text-[70px] lg:text-[100px]">
             WANG WEI TSE
           </h1>
           <p className="font-outfit">

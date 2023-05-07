@@ -9,6 +9,10 @@ export default {
       fontFamily:{
         "outfit": 'Outfit, sans-serif',
         "francois": "'Francois One', sans-serif"
+      },
+      transitionProperty: {
+        'height': 'height',
+        'spacing': 'margin, padding',
       }
     },
   },
