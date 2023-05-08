@@ -9,7 +9,7 @@ function ResponsiveMenu({ isMenuOpen, setIsMenuOpen }) {
       className={
         isMenuOpen === true
           ? "h-screen transition-height duration-200 ease-in-out flex justify-center items-center fixed inset-0 bg-purple-900 opacity-90 z-40"
-          : "h-0 transition-height duration-200 ease-in-out flex justify-center items-center fixed inset-0 bg-purple-900 opacity-90 -z-40"
+          : "h-0 transition-height duration-200 ease-in-out flex justify-center items-center fixed inset-0 bg-purple-900 opacity-90 -z-40 overflow-hidden"
       }
     >
       <div className="relative flex flex-col">

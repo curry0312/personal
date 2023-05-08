@@ -21,7 +21,7 @@ function About() {
   };
   return (
     <section id="about" className="py-20 px-2 bg-slate-50 md:px-16 lg:h-screen">
-      <div className="flex flex-col md:flex-row h-full">
+      <div className="flex flex-col lg:flex-row h-full">
         <div className="text-center p-10">
           <h2 className="text-[100px] font-bold">1+</h2>
           <p className="font-outfit">Years devoting in frontend web</p>

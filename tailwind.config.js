@@ -13,6 +13,9 @@ export default {
       transitionProperty: {
         'height': 'height',
         'spacing': 'margin, padding',
+      },
+      backgroundImage: {
+        'contact': "url('/src/assets/contact-bg.jpg')",
       }
     },
   },

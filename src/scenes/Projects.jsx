@@ -22,7 +22,7 @@ function Projects() {
     show: { opacity: 1 },
   };
   return (
-    <section id="projects" className="py-20 px-16 bg-black md:h-screen">
+    <section id="projects" className="py-20 px-2 bg-black md:h-screen md:px-16">
       <div className="font-francois text-center text-5xl text-white mb-16">
         My Projects
       </div>
@@ -34,7 +34,7 @@ function Projects() {
           amount: 0.3
         }}
         variants={container}
-        className="grid grid-cols-1 gap-3 w-[70%] mx-auto md:grid-cols-3 "
+        className="grid grid-cols-1 gap-3 w-[90%] mx-auto md:grid-cols-3 "
       >
         <Project
           image={budget}

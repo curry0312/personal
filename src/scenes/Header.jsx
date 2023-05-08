@@ -1,6 +1,7 @@
 import React from "react";
 import me from "../assets/me.jpg";
 import { motion } from "framer-motion";
+import AnchorLink from "react-anchor-link-smooth-scroll";
 
 function Header() {
   return (
@@ -39,9 +40,9 @@ function Header() {
             Frontend developer from Taiwan, major in Department Of Economics
           </p>
           <div className="font-outfit">
-            <button className="px-4 py-2 bg-purple-500 text-white text-sm rounded-md transition duration-500 ease-in-out hover:bg-purple-600">
+            <AnchorLink href="#contact" className="px-4 py-2 bg-purple-500 text-white text-sm rounded-md transition duration-500 ease-in-out hover:bg-purple-600">
               Contact Me
-            </button>
+            </AnchorLink>
           </div>
         </motion.div>
         {/*Image*/}
