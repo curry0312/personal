@@ -5,6 +5,7 @@ import brochure from "../assets/brochure.png";
 import budget from "../assets/budget.png";
 import calculator from "../assets/calculator.png";
 import ecommerce from "../assets/ecommerce.png";
+import next_notes from "../assets/next-notes-app.png";
 import user from "../assets/user.png";
 
 function Projects() {
@@ -37,6 +38,14 @@ function Projects() {
         className="grid grid-cols-1 gap-3 w-[90%] mx-auto md:grid-cols-3 "
       >
         <Project
+          image={next_notes}
+          description={
+            "A Nextjs notes app build by Typescript and Nextauth, so that we can create our own account to make notes. Google login and Email login are available."
+          }
+          url="https://next-notes-app-two.vercel.app/"
+          variants={listItem}
+        />
+        <Project
           image={budget}
           description={
             "A Expense-tracker app. We can add expense, and it can analyze the cost for us."
@@ -59,7 +68,7 @@ function Projects() {
         <Project
           image={ecommerce}
           description={"A Ecommerce website using fake store api."}
-          url="https://github.com/curry0312/ecommerce"
+          url="https://ecommerce-one-plum.vercel.app/"
           variants={listItem}
         />
         <Project
