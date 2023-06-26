@@ -42,7 +42,8 @@ function Projects() {
           description={
             "A Nextjs notes app build by Typescript and Nextauth, so that we can create our own account to make notes. Google login and Email login are available."
           }
-          url="https://next-notes-app-two.vercel.app/"
+          siteUrl="https://next-notes-app-two.vercel.app/"
+          githubUrl="https://github.com/curry0312/next-notes-app"
           variants={listItem}
         />
         <Project
@@ -50,25 +51,29 @@ function Projects() {
           description={
             "A Expense-tracker app. We can add expense, and it can analyze the cost for us."
           }
-          url="https://curry0312.github.io/budget-tracker/"
+          siteUrl="https://curry0312.github.io/budget-tracker/"
+          githubUrl="https://github.com/curry0312/budget-tracker"
           variants={listItem}
         />
         <Project
           image={brochure}
           description={"A brochure site which has some good features."}
-          url="https://curry0312.github.io/brochure/"
+          siteUrl="https://curry0312.github.io/brochure/"
+          githubUrl="https://github.com/curry0312/brochure"
           variants={listItem}
         />
         <Project
           image={calculator}
           description={"A simple calculator."}
-          url="https://curry0312.github.io/calculator/"
+          siteUrl="https://curry0312.github.io/calculator/"
+          githubUrl="https://github.com/curry0312/calculator"
           variants={listItem}
         />
         <Project
           image={ecommerce}
           description={"A Ecommerce website using fake store api."}
-          url="https://ecommerce-one-plum.vercel.app/"
+          siteUrl="https://ecommerce-one-plum.vercel.app/"
+          githubUrl="https://github.com/curry0312/ecommerce"
           variants={listItem}
         />
         <Project
@@ -76,7 +81,8 @@ function Projects() {
           description={
             "A simple frontend and backend app, we can register, login, update user's information."
           }
-          url="https://github.com/curry0312/login-app"
+          siteUrl="https://github.com/curry0312/login-app"
+          githubUrl="https://github.com/curry0312/login-app"
           variants={listItem}
         />
       </motion.div>
