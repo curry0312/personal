@@ -35,7 +35,7 @@ function Projects() {
           amount: 0.3
         }}
         variants={container}
-        className="grid grid-cols-1 gap-3 w-[90%] mx-auto md:grid-cols-3 "
+        className="grid grid-cols-1 gap-3 w-[90%] mx-auto md:grid-cols-2 xl:grid-cols-3"
       >
         <Project
           image={next_notes}
