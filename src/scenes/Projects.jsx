@@ -40,7 +40,7 @@ function Projects() {
         <Project
           image={next_notes}
           description={
-            "A Nextjs notes app build by Typescript and Nextauth, so that we can create our own account to make notes. Google login and Email login are available."
+            "A Nextjs notes app build by Typescript and Nextauth, we can create our own account to make notes. Google login and Email login are available."
           }
           siteUrl="https://next-notes-app-two.vercel.app/"
           githubUrl="https://github.com/curry0312/next-notes-app"
@@ -49,7 +49,7 @@ function Projects() {
         <Project
           image={budget}
           description={
-            "A Expense-tracker app. We can add expense, and it can analyze the cost for us."
+            "A Expense-tracker app build by react and redux-toolkit. We can add expense, and it can analyze the cost for us."
           }
           siteUrl="https://curry0312.github.io/budget-tracker/"
           githubUrl="https://github.com/curry0312/budget-tracker"
@@ -57,21 +57,21 @@ function Projects() {
         />
         <Project
           image={brochure}
-          description={"A brochure site which has some good features."}
+          description={"A brochure site which has some good features build by react."}
           siteUrl="https://curry0312.github.io/brochure/"
           githubUrl="https://github.com/curry0312/brochure"
           variants={listItem}
         />
         <Project
           image={calculator}
-          description={"A simple calculator."}
+          description={"A simple calculator build by react."}
           siteUrl="https://curry0312.github.io/calculator/"
           githubUrl="https://github.com/curry0312/calculator"
           variants={listItem}
         />
         <Project
           image={ecommerce}
-          description={"A Ecommerce website using fake store api."}
+          description={"A Ecommerce website(client only) using fake store api build by react and redux-toolkit."}
           siteUrl="https://ecommerce-one-plum.vercel.app/"
           githubUrl="https://github.com/curry0312/ecommerce"
           variants={listItem}
@@ -79,7 +79,7 @@ function Projects() {
         <Project
           image={user}
           description={
-            "A simple frontend and backend app, we can register, login, update user's information."
+            "A simple frontend and backend app build by nodejs, we can register, login, update user's information."
           }
           siteUrl="https://github.com/curry0312/login-app"
           githubUrl="https://github.com/curry0312/login-app"
