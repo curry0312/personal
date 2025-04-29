@@ -22,10 +22,36 @@ function Projects() {
     show: { opacity: 1 },
   };
   return (
-    <section id="projects" className="py-24 px-2 bg-black md:min-h-screen md:px-16">
+    <section id="projects" className="py-24 px-2 bg-gray-900 md:min-h-screen md:px-16">
       <div className="font-francois text-center text-5xl text-white mb-16">
         My Projects
       </div>
+      {/* <div className="font-francois text-left text-3xl text-white mb-16">
+        In progress
+      </div>
+      <motion.div
+        initial="hidden"
+        whileInView="show"
+        viewport={{
+          once:true,
+          amount: 0.3
+        }}
+        variants={container}
+        className="grid grid-cols-1 gap-3 w-[90%] mx-auto md:grid-cols-2 xl:grid-cols-3"
+      >
+        <Project
+          image={group}
+          description={
+            "A Nextjs social media app build by T3 Stack, using MySQL with Prisma, . We can create our own account to make posts."
+          }
+          siteUrl="https://group-discuss-app.vercel.app/"
+          githubUrl="https://github.com/curry0312/group-discuss-app"
+          variants={listItem}
+        />
+      </motion.div> */}
+      {/* <div className="font-francois text-left text-3xl text-white my-16">
+        Completed
+      </div> */}
       <motion.div
         initial="hidden"
         whileInView="show"
