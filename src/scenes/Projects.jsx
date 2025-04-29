@@ -2,9 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import Project from "../components/Project";
 import brochure from "../assets/brochure.png";
-import budget from "../assets/budget.png";
 import calculator from "../assets/calculator.png";
-import ecommerce from "../assets/ecommerce.png";
 import next_notes from "../assets/next-notes-app.png";
 import user from "../assets/user.png";
 
@@ -40,13 +38,22 @@ function Projects() {
         <Project
           image={next_notes}
           description={
+            "A Nextjs social media app build by T3 Stack, using MySQL with Prisma, . We can create our own account to make posts."
+          }
+          siteUrl="https://group-discuss-app.vercel.app/"
+          githubUrl="https://github.com/curry0312/group-discuss-app"
+          variants={listItem}
+        />
+        <Project
+          image={next_notes}
+          description={
             "A Nextjs notes app build by Typescript and Nextauth, we can create our own account to make notes. Google login and Email login are available."
           }
           siteUrl="https://next-notes-app-two.vercel.app/"
           githubUrl="https://github.com/curry0312/next-notes-app"
           variants={listItem}
         />
-        <Project
+        {/* <Project
           image={budget}
           description={
             "A Expense-tracker app build by react and redux-toolkit. We can add expense, and it can analyze the cost for us."
@@ -54,7 +61,7 @@ function Projects() {
           siteUrl="https://curry0312.github.io/budget-tracker/"
           githubUrl="https://github.com/curry0312/budget-tracker"
           variants={listItem}
-        />
+        /> */}
         <Project
           image={brochure}
           description={"A brochure site which has some good features build by react."}
@@ -69,13 +76,13 @@ function Projects() {
           githubUrl="https://github.com/curry0312/calculator"
           variants={listItem}
         />
-        <Project
+        {/* <Project
           image={ecommerce}
           description={"A Ecommerce website(client only) using fake store api build by react and redux-toolkit."}
           siteUrl="https://ecommerce-one-plum.vercel.app/"
           githubUrl="https://github.com/curry0312/ecommerce"
           variants={listItem}
-        />
+        /> */}
         <Project
           image={user}
           description={

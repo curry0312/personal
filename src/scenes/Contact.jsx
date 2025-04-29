@@ -13,7 +13,7 @@ function Contact() {
           <p className="text-4xl my-1">Lets Contact Me!</p>
           <p className="text-purple-500 my-5">Let's create something together!</p>
         </div>
-        <form action="https://formsubmit.co/8caa425b2ae3afbd1d62fd8e66b25052" method="POST" ref={formRef} className="flex flex-col justify-center h-full basis-1/2 py-24 px-8 bg-white md:border-2 md:border-gray-300 md:rounded-xl md:h-auto md:py-8">
+        <form action="https://formsubmit.co/curry900312@gmail.com" method="POST" ref={formRef} className="flex flex-col justify-center h-full basis-1/2 py-24 px-8 bg-white md:border-2 md:border-gray-300 md:rounded-xl md:h-auto md:py-8">
           <div className="text-4xl font-outfit font-bold my-3">Send me a message</div>
           <div className="flex flex-col gap-3 font-outfit font-bold">
             <input type="text" name="name" placeholder="Full name*" className="bg-gray-100 py-2 px-4 rounded-md"/>
