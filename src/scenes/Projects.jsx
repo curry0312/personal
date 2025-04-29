@@ -4,6 +4,7 @@ import Project from "../components/Project";
 import brochure from "../assets/brochure.png";
 import calculator from "../assets/calculator.png";
 import next_notes from "../assets/next-notes-app.png";
+import group from "../assets/group-discuss-app.png";
 import user from "../assets/user.png";
 
 function Projects() {
@@ -36,7 +37,7 @@ function Projects() {
         className="grid grid-cols-1 gap-3 w-[90%] mx-auto md:grid-cols-2 xl:grid-cols-3"
       >
         <Project
-          image={next_notes}
+          image={group}
           description={
             "A Nextjs social media app build by T3 Stack, using MySQL with Prisma, . We can create our own account to make posts."
           }
